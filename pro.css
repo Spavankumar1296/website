@@ -303,6 +303,19 @@ total-container-set{
     justify-content: center;
 
   }
+  @media screen and (max-width: 375px) {
+    .fact-and-myth{
+        display: block;
+    }
+    .total{
+        display: none;
+    }
+    #updates-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
 
   @media screen and (min-width: 375px) {
     .fact-and-myth{
