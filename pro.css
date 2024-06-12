@@ -304,7 +304,7 @@ total-container-set{
 
   }
 
-  @media (min-width: 375px) {
+/*   @media (min-width: 375px) {
     .fact-and-myth{
         display: block;
     }
@@ -316,8 +316,8 @@ total-container-set{
         flex-direction: column;
         align-items: center;
     }
-}
-/* @media (min-width: 768px) {
+} */
+ @media (min-width: 768px) {
     .fact-and-myth{
         display: block;
     }
@@ -330,7 +330,7 @@ total-container-set{
         align-items: center;
       
     }
-} */
+} 
   @media (min-width: 1440px) {
     .fact-and-myth{
         display: none;
